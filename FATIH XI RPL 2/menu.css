@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+   background-image: url('https://3.bp.blogspot.com/-TISkpL5vTYc/We7_FaTtOSI/AAAAAAAAAwg/l6VwA-lHn6MQQknESNmtoHgbthkHKgtzACLcBGAs/w1200-h630-p-k-no-nu/DSC_0722.JPG');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(162, 233, 70);
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.card-image{
+    background-color: white;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.food-1{
+    background-image: url('https://img.qraved.co/v2/image/data/2016/05/27/resep-cara-membuat-iga-bakar-spesial-enak-lezat-dan-mudah-x.png');
+}
+
+.food-2{
+    background-image: url('https://sirclocdn.com/buminini/products/_200504105213_Nasi%20timbel%20komplit_zoom.jpg');
+}
+
+.food-3{
+    background-image: url('https://recipeguru.org/wp-content/uploads/2020/04/sop-buntut-oxtail-soup.jpg');
+}
+
+.food-4{
+    background-image: url('https://carimakanaja.com/wp-content/uploads/2019/01/gudeg-yu-djum-1024x1024.jpg');
+}
+
+.food-5{
+    background-image: url('https://www.indonesiatravelguides.com/wp-content/uploads/2013/06/Dodol-Garut.jpg');
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: rgb(6, 232, 248);
+    color: rgb(0, 17, 255);
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+      
+}
+
+.card:hover{
+    background-color: rgb(216, 35, 207);
+    color: ivory;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 60px;
+}
+
+nav.logo{
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
